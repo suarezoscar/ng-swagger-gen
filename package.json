@@ -1,8 +1,11 @@
 {
-  "name": "ng-swagger-gen",
+  "name": "@ctag/ng-swagger-gen",
   "version": "1.2.1",
   "license": "MIT",
   "author": "Cyclos development team",
+  "contributors": [
+    "Óscar Suárez"
+  ],
   "description": "A Swagger 2.0 codegen for Angular",
   "private": false,
   "keywords": [
@@ -12,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyclosproject/ng-swagger-gen.git"
+    "url": "git+https://github.com/suarezoscar/ng-swagger-gen.git"
   },
   "dependencies": {
     "argparse": "^1.0.10",
@@ -25,5 +28,8 @@
   },
   "bin": {
     "ng-swagger-gen": "./ng-swagger-gen"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.procesosdev.ctag/repository/procesos-npm-snapshots/"
   }
 }
